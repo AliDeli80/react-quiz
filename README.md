@@ -67,11 +67,17 @@ react-quiz/
 **1- Start Screen** – Where the quiz begins
 
 <img width="1920" height="870" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/3db08ebb-5a99-43b3-9461-9dbb3e887452" />
+
 **2- Question Screen** – Displaying the current question and options
+
 <img width="1920" height="866" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/3544d3d7-5759-431d-b1fb-7535ec5acf83" />
+
 **3- Answer Selection Screen** – User selecting an option
+
 <img width="1920" height="864" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/e7a88268-4399-4ffd-b3de-8617b63f9871" />
+
 **4- Result Screen** – Final score and restart option
+
 <img width="1920" height="869" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/203fd074-1add-4d0d-990d-007e513d8d8a" />
 
 ---
