@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# 🎯 React Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple quiz application built with **React**, using **useReducer** for state management and a local JSON file for quiz data.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🧠 State management using **React useReducer**
+- 📂 Loads quiz questions from a local JSON file
+- 📊 Shows score at the end of the quiz
+- 🔄 Restart quiz option
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Tech Stack
 
-### `npm test`
+- **React** (Hooks + useReducer)
+- **JavaScript (ES6+)**
+- **CSS** for styling
+- Local **JSON** file for quiz data
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Installation & Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repository and run it locally:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/AliDeli80/react-quiz.git
+cd react-quiz
+npm install
+npm start
+```
+Then open http://localhost:3000 in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📖 How It Works
+1- The app loads quiz questions from a local JSON file in the public folder.
 
-### `npm run eject`
+2- State transitions (start quiz, answer question, next question, show results) are handled with useReducer.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3- Users select answers and receive points for correct answers.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4- At the end, the score is displayed with a restart option.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📂 Project Structure
+```plaintext
+react-quiz/
+├── public/
+│   └── questions.json     # Local quiz data
+├── src/
+│   ├── components/        # UI Components
+│   ├── reducer.js         # useReducer logic
+│   ├── App.js             # Main App component
+│   ├── index.css          # Styles
+│   └── index.js           # Entry point
+└── package.json
+```
 
-## Learn More
+## 📸 Screenshots
+1- Start Screen – Where the quiz begins
+<img width="1920" height="870" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/3db08ebb-5a99-43b3-9461-9dbb3e887452" />
+2- Question Screen – Displaying the current question and options
+<img width="1920" height="866" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/3544d3d7-5759-431d-b1fb-7535ec5acf83" />
+3- Answer Selection Screen – User selecting an option
+<img width="1920" height="864" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/e7a88268-4399-4ffd-b3de-8617b63f9871" />
+4- Result Screen – Final score and restart option
+<img width="1920" height="869" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/203fd074-1add-4d0d-990d-007e513d8d8a" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🌟 Possible Improvements
+- Make the app responsive for mobile devices
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Randomize question order
 
-### Code Splitting
+- Save scores to localStorage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Add animations for better UX
 
-### Analyzing the Bundle Size
+- Fetch questions from an external API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
 
-### Making a Progressive Web App
+## 👨‍💻 Author
+Ali Delgoshaei
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
