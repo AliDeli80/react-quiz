@@ -34,6 +34,8 @@ npm start
 ```
 Then open http://localhost:3000 in your browser.
 
+---
+
 ## 📖 How It Works
 1- The app loads quiz questions from a local JSON file in the public folder.
 
@@ -43,6 +45,7 @@ Then open http://localhost:3000 in your browser.
 
 4- At the end, the score is displayed with a restart option.
 
+---
 
 ## 📂 Project Structure
 ```plaintext
@@ -58,15 +61,19 @@ react-quiz/
 └── package.json
 ```
 
+---
+
 ## 📸 Screenshots
-1- Start Screen – Where the quiz begins
+**1- Start Screen** – Where the quiz begins
 <img width="1920" height="870" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/3db08ebb-5a99-43b3-9461-9dbb3e887452" />
-2- Question Screen – Displaying the current question and options
+**2- Question Screen** – Displaying the current question and options
 <img width="1920" height="866" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/3544d3d7-5759-431d-b1fb-7535ec5acf83" />
-3- Answer Selection Screen – User selecting an option
+**3- Answer Selection Screen** – User selecting an option
 <img width="1920" height="864" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/e7a88268-4399-4ffd-b3de-8617b63f9871" />
-4- Result Screen – Final score and restart option
+**4- Result Screen** – Final score and restart option
 <img width="1920" height="869" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/203fd074-1add-4d0d-990d-007e513d8d8a" />
+
+---
 
 ## 🌟 Possible Improvements
 - Make the app responsive for mobile devices
@@ -79,8 +86,12 @@ react-quiz/
 
 - Fetch questions from an external API
 
+---
+
 ## 📄 License
 This project is licensed under the [MIT License](LICENSE).
+
+---
 
 ## 👨‍💻 Author
 Ali Delgoshaei
