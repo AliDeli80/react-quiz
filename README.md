@@ -65,6 +65,7 @@ react-quiz/
 
 ## 📸 Screenshots
 **1- Start Screen** – Where the quiz begins
+
 <img width="1920" height="870" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/3db08ebb-5a99-43b3-9461-9dbb3e887452" />
 **2- Question Screen** – Displaying the current question and options
 <img width="1920" height="866" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/3544d3d7-5759-431d-b1fb-7535ec5acf83" />
